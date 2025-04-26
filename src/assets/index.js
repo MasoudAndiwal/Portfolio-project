@@ -18,7 +18,7 @@ import mysql from "./tech/mysql.png";
 import bootstrap from "./tech/bootstrap.png";
 import php from "./tech/php.png";
 import laravel from "./tech/laravel.png";
-import C from "./tech/c++.png";
+import C from "./tech/C++.png";
 import oracle from "./tech/oracle.png";
 import Java from "./tech/java.png";
 
