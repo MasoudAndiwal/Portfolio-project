@@ -28,8 +28,8 @@ const Contact = () => {
 
     // Log the form data before sending
     console.log('Sending email with data:', {
-      from_name: form.name,
-      from_email: form.email,
+      name: form.name,
+      email: form.email,
       message: form.message
     });
 
@@ -38,11 +38,11 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
-          from_name: form.name,
-          from_email: form.email,
+          name: form.name,
+          email: form.email,
+          message: form.message,
           to_name: "Masoud",
           to_email: "masoudandiwal89@gmail.com",
-          message: form.message,
           subject: `New Message from ${form.name}`,
           reply_to: form.email
         },
@@ -99,7 +99,7 @@ const Contact = () => {
             <span className='text-white font-medium mb-4'>Your Email</span>
             <input
               type='email'
-              name='email'
+              name='email'      
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
