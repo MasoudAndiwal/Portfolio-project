@@ -8,25 +8,29 @@ import close from "./close.svg";
 import work from "./work.png";
 import github from "./github.png";
 
-import css from "./tech/css.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import tailwind from "./tech/tailwind.png";
-import qt from "./tech/qt.png";
-import mysql from "./tech/mysql.png";
-import bootstrap from "./tech/bootstrap.png";
-import php from "./tech/php.png";
-import laravel from "./tech/laravel.png";
-import C from "./tech/C++.png";
-import oracle from "./tech/oracle.png";
-import Java from "./tech/java.png";
+// import skills icons 
+import html from './tech/html.png'
+import css from "./tech/css.png"
+import figma from "./tech/figma.png"
+import javascript from "./tech/javascript.png"
+import react from "./tech/reactjs.svg"
+import nextjs from "./tech/nextjs.svg"
+import tailwind from "./tech/tailwind.png"
+import laravel from "./tech/laravel.png"
+import postgresql from "./tech/postgresql.svg"
+import nodejs from './tech/nodejs.png'
+import mongodb from './tech/mongodb.png'
+import typescript from './tech/typescript.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+// import the image of the project
+import interview from "./Interview.png";
+import yoom from "./Yoom.png";
+import firstsaas from "./Sass.png";
+import iphone from "./IphoneClone.png";
 export {
   logo,
   backend,
@@ -35,23 +39,28 @@ export {
   web,
   menu,
   close,
-  css,
-  git,
-  html,
-  javascript,
-  tailwind,
-  php,
-  laravel,
-  qt,
-  mysql,
-  oracle,
-  C,
-  Java,
-  bootstrap,
   meta,
   shopify,
   starbucks,
   tesla,
   work,
   github,
+  // import the image of the project
+  interview,
+  yoom,
+  firstsaas,
+  iphone,
+  // export skills iconst 
+  html,
+  css,
+  figma,
+  javascript,
+  react,
+  nextjs,
+  tailwind,
+  laravel,
+  postgresql,
+  nodejs,
+  mongodb,
+  typescript,
 };

@@ -3,24 +3,28 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  html,
-  css,
-  tailwind,
-  git,
   meta,
   starbucks,
   tesla,
   shopify,
-  php,
-  laravel,
-  bootstrap,
-  mysql,
-  C,
-  qt,
-  oracle,
-  Java,
   work,
+  yoom,
+  interview,
+  firstsaas,
+  iphone,
+  // import the skill from assets 
+  html,
+  css,
+  figma,
+  javascript,
+  react,
+  nextjs,
+  tailwind,
+  laravel,
+  postgresql,
+  nodejs,
+  mongodb,
+  typescript,
 } from "../assets";
 
 export const navLinks = [
@@ -56,14 +60,14 @@ const services = [
     icon: creator,
   },
 ];
-
+// add the skills in technologies 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -71,45 +75,43 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "PHP",
-    icon: php,
+    name: "React",
+    icon: react,
   },
   {
-    name: "laravel",
-    icon: laravel,
+    name: "Next.js",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "bootstrap",
-    icon: bootstrap,
+    name: "Figma",
+    icon: figma,
   },
   {
-    name: "mysql",
-    icon: mysql,
+    name: "Node.js",
+    icon: nodejs,
   },
   {
-    name: "oracl",
-    icon: oracle,
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+ 
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
-    name: "git",
-    icon: git,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
-    name: "c++",
-    icon: C,
+    name: "Laravel",
+    icon: laravel,
   },
-  {
-    name: "qt",
-    icon: qt,
-  },
-  {
-    name: "java",
-    icon: Java,
-  },
+ 
 ];
 
 const experiences = [
@@ -221,6 +223,107 @@ const projects = [
     source_code_link: "https://portfolio-project-bngi-git-main-masouds-projects-56c1e72b.vercel.app/"
   },
   {
+    name: "Ai Interview Platform",
+    description:
+      "An intelligent AI-powered interview platform designed to help candidates practice for job interviews. Features automated feedback, customizable interview scenarios, and performance analytics to improve interview skills.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Vapi",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API integration",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: interview,
+    source_code_link: "https://interview-platfrom-roan.vercel.app"
+  },
+  {
+    name: "Zoom clone",
+    description:
+      "A zoom clone application built with Next.js and Node.js. Features real-time video conferencing, screen sharing and screen recording.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Stream",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: yoom,
+    source_code_link: "https://yoom-video-room.vercel.app"
+  },
+  {
+    name: "Canverso",
+    description:
+      "An AI-powered learning platform that uses natural language processing to create personalized education paths and interactive learning experiences for students of all levels.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Vapi",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: firstsaas,
+    source_code_link: "https://saas-app-alpha.vercel.app"
+  },
+  // Apple Iphone 
+  {
+    name: "Iphone Clone",
+    description:
+      "A modern Apple iPhone showcase website with detailed product information, interactive 3D models, and a seamless shopping experience. Features include product comparison, customization options, and technical specifications.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: iphone,
+    source_code_link: "https://iphon-cyan.vercel.app"
+  },
+  {
     name: "Admin Dashboard",
     description:
       "A comprehensive admin dashboard with user management, analytics, and data visualization. Built with React and modern UI components.",
@@ -269,7 +372,7 @@ const projects = [
     ],
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80",
     source_code_link: "https://github.com/"
-  }
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
